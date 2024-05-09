@@ -5,5 +5,6 @@ def count_words_in_sentence(sentence):
     num_words = len(words)
     return num_words
 
-sentence = "This is a sample sentence."
+sentence = input("Put your sentence: ")
 print(f"The sentence '{sentence}' has {count_words_in_sentence(sentence)} words.")
+
