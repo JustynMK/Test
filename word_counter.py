@@ -5,6 +5,6 @@ def count_words_in_sentence(sentence):
     num_words = len(words)
     return num_words
 
-sentence = input("Put the sentence you most like or dislike or sth else...: ")
+sentence = input("Put the sentence you most like or dislike or sth else  xshgfajja...: ")
 print(f"The sentence '{sentence}' has {count_words_in_sentence(sentence)} words.")
 
